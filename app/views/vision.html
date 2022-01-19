@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Vision statement
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+
+  <main class="govuk-main-wrapper--autospacing" id="main-content" role="main">
+
+    <div class="govuk-panel govuk-panel--banner">
+      <h1 class="govuk-panel__title">
+        Our Vision
+      </h1>
+   
+
+      <div><h2>Own SDD Interaction Design and be the best</h2>
+      </div>
+    </div>
+
+
+    <div class="govuk-grid-row">
+
+     
+
+      <div class="govuk-grid-column-two-thirds govuk-!-margin-top-5">
+        <p>As a unified and connected team of Interaction Designers, our vision is to own the SDD interaction design space as experts in our profession, sharing knowledge and championing design across Government; designing, delivering and iterating first-class online services and solutions which provide consistent experiences for internal and external users, using the most appropriate tools and patterns while measuring against agreed KPIs.</p>
+      
+      </div>
+      <div class="govuk-grid-column-one-third govuk-!-margin-top-5">
+        <p><img src="{{ asset_path }}images/vision.jpg" alt="" width="90% height=" 90%></p>
+      </div>
+      
+    </div>
+
+  </main>
+  </div>
+
+{% endblock %}

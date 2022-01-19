@@ -1,0 +1,570 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Principles and best practice
+{% endblock %}
+
+{% block beforeContent %}
+<a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+
+  <main class="govuk-main-wrapper--autospacing" id="main-content" role="main">
+
+    <div class="govuk-panel govuk-panel--banner">
+      <h1 class="govuk-panel__title">Principles and best practice</h1>
+      <p></p>
+      (widely applicable laws, guidelines, and design considerations)
+
+    </div>
+
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds govuk-!-margin-top-5">
+
+        <p>
+          As a Clan we have pulled together a set of principles and best practices which we apply to Interaction Design
+          to provide consistency and guidance to how we apply design rationale leading to great interaction design and a
+          great user experience.
+        </p>
+
+
+        <div class="govuk-tabs" data-module="govuk-tabs">
+          <h2 class="govuk-tabs__title">
+            Contents
+          </h2>
+          <ul class="govuk-tabs__list">
+            <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+              <a class="govuk-tabs__tab" href="#past-day">
+                IxD themes and principles
+              </a>
+            </li>
+            <li class="govuk-tabs__list-item">
+              <a class="govuk-tabs__tab" href="#past-week">
+                Principles list
+              </a>
+            </li>
+
+          </ul>
+          <div class="govuk-tabs__panel" id="past-day">
+            <h2 class="govuk-heading-l">IxD themes</h2>
+
+            <!--theme 1-->
+            <details class="govuk-details govuk-!margin-top-1 govuk-!-margin-bottom-0" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design for the needs of all
+                    users
+                  </h2>
+                  <p class="govuk-reason govuk-!-margin-bottom-3">...so that we are meeting actual user needs for all
+                    users
+                  </p>
+                </span>
+              </summary>
+
+              <!--principle 1-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-2">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand all users,
+                      their
+                      needs,
+                      behaviours and pain points</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Design with needs-based personas</li>
+                  <li>Understand the research insights</li>
+                  <li>Think both user needs and business needs</li>
+                  <li>Input into discussion guides / workshops so we learn what we need to</li>
+                  <li>Identify journey map pain points</li>
+                  <li>Create user journeys with User Researchers / Service Designers</li>
+                </ul>
+              </details>
+
+              <!--principle 2 -->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-2">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design accessibly from the
+                      start</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Use sufficient colour contrast</li>
+                  <li>Use industry recommended sizes for interactive elements</li>
+                  <li>Design structure (headings, lists...)</li>
+                  <li>Visually indicate the page focus</li>
+                  <li>Avoid images of text</li>
+                  <li>Do not use colour alone to convey meaning</li>
+
+                </ul>
+              </details>
+
+
+              <!--principle 3-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Follow Gestalt laws</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Law of proximity</li>
+                  <li>Law of closure</li>
+                  <li>Law of similarity</li>
+                  <li>Law of continuity</li>
+                </ul>
+              </details>
+
+
+              <!--principle 4-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Reduce cognitive load
+                    </div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Prefill data</li>
+                  <li>Use summary pages to playback to users</li>
+                  <li>Make it easy to compare data from different sources</li>
+                  <li>Miller's law (chunking) to help memory limitations</li>
+                  <li>Allow reference material to open in a new window</li>
+                </ul>
+              </details>
+
+
+              <!--principle 5-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Support users /
+                      preventative
+                      IxD</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Allow users to undo actions</li>
+                  <li>Think error recovery and error prevention</li>
+                  <li>Provide confirmation of actions e.g. save and delete</li>
+                  <li>Make users explicity confirm destructive actions e.g. are you sure you want to delete?</li>
+                  <li>Provide logical options for checkboxes / radio buttons</li>
+                  <li>Consider helpful context e.g. hint text</li>
+                  <li>Provide helpful validation messages</li>
+                </ul>
+              </details>
+
+
+            </details>
+
+
+            <!--theme 2-->
+            <details class="govuk-details govuk-!margin-top-1 govuk-!-margin-bottom-0" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+
+
+                  <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design for simplicity</h2>
+
+                  <p class="govuk-reason govuk-!-margin-bottom-3">...so the services are intuiative and easy to use</p>
+                </span>
+              </summary>
+
+              <!--principle 1-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand user behaviours
+                      and
+                      make users do less</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Ask yourself / understand 'how' the user does xyz</li>
+                  <li>Ask yourself / understand 'why' the user does xyz</li>
+                  <li>Pre-populate, auto filter, remove redundancies</li>
+                  <li>Avoid unnecessary or extra interactions / provide short cuts</li>
+                  <li>Reduce scrolling (use back to top, anchor links)</li>
+                  <li>Fitt's law - time relative to size and distance</li>
+                  <li>Reduce repetitive interactions, (multiple instead of individual) </li>
+                </ul>
+              </details>
+
+
+              <!--principle 2-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Don't make users think
+                    </div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Use of summary screens before submitting</li>
+                  <li>Recognition rather than recall, have access to / what users need where they need it</li>
+                  <li>Add helpful contextual information / guidance</li>
+                  <li>Use of all elements on the page headings, hint text labels</li>
+                  <li>Map to existing mental models</li>
+                  <li>Keep focus (not cluttered, provide affordance, clear call to actions)</li>
+                </ul>
+              </details>
+
+            </details>
+
+
+
+
+
+            <!--theme 3-->
+            <details class="govuk-details govuk-!margin-top-1 govuk-!-margin-bottom-0" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+                  <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">
+                    Design in context</h2>
+                  <p class="govuk-reason govuk-!-margin-bottom-3">...so users expectations are set and they know where
+                    they
+                    are, where they are going, what they need and what they will be doing</p>
+                </span>
+              </summary>
+
+              <!--principle 1-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-2">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand context and
+                      provide
+                      context</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Avoid dead-ends</li>
+                  <li>Explain what will happen next </li>
+                  <li>Tell users what they need </li>
+                  <li>Indicate timescales</li>
+                  <li>Consider end-2-end journey</li>
+                  <li>Consider environment, IT confidence, pressures and constraints</li>
+                  <li>Provide timely system feedback</li>
+                </ul>
+              </details>
+
+
+            </details>
+
+            <!--theme 4-->
+
+
+            <details class="govuk-details govuk-!margin-top-1 govuk-!-margin-bottom-0" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+
+                  <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design consistently</h2>
+                  <p class="govuk-reason govuk-!-margin-bottom-3">...so interactions for the services are predictable
+                    and
+                    learnable thereby saving users time and effort</p>
+                </span>
+              </summary>
+
+              <!--principle 1-->
+              <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-2">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design a seamless
+                      experience
+                    </div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Re-use patterns / code where possible and appropriate to conform with user expectations</li>
+                  <li>Avoid bespoke designs where possible</li>
+                  <li>Make sure systems look / behave the same</li>
+                  <li>Maintain documentation e.g. Design histories, Interaction Notes, other IxD dcoumentation</li>
+                </ul>
+              </details>
+            </details>
+
+            <!--theme 5-->
+
+            <details class="govuk-details govuk-!margin-top-1 govuk-!-margin-bottom-0" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">
+
+                  <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design meaningful
+                    interactions
+                  </h2>
+
+                  <p class="govuk-reason govuk-!-margin-bottom-3">...so that everything is grounded in research / design
+                    rationale of proven interactions</p>
+                </span>
+              </summary>
+
+              <!--principle 1-->
+              <details class="govuk-details govuk-!-padding-left-5  govuk-!-margin-bottom-1"
+                data-module="govuk-details">
+                <summary class="govuk-details__summary govuk-!-margin-top-1">
+                  <span class="govuk-details__summary-text">
+                    <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design with data / design
+                      logic</div>
+                  </span>
+                </summary>
+                <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+                <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+                  <li>Designs are testing hypothesis</li>
+                  <li>Features are fulfilling a user need</li>
+                  <li>Design rationale exists for design decisions</li>
+                  <li>Remove unnecessary components which are not intent driven or do not add value</li>
+                  <li>Follow User Centred Design best practice</li>
+                </ul>
+              </details>
+
+            </details>
+
+
+
+
+
+
+
+            <!--list-->
+          </div>
+          <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+            <h2 class="govuk-heading-l">Past qihlshweek</h2>
+            
+           <!--principle 1-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-5">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand all users, their needs,
+              behaviours and pain points</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Design with needs-based personas</li>
+          <li>Understand the research insights</li>
+          <li>Think both user needs and business needs</li>
+          <li>Input into discussion guides / workshops so we learn what we need to</li>
+          <li>Identify journey map pain points</li>
+          <li>Create user journeys with User Researchers / Service Designers</li>
+        </ul>
+      </details>
+
+      <!--principle 2-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-2">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design accessibly from the
+              start</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Use sufficient colour contrast</li>
+          <li>Use industry recommended sizes for interactive elements</li>
+          <li>Design structure (headings, lists...)</li>
+          <li>Visually indicate the page focus</li>
+          <li>Avoid images of text</li>
+          <li>Do not use colour alone to convey meaning</li>
+
+        </ul>
+      </details>
+      <!--principle 3-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Follow Gestalt laws</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Law of proximity</li>
+          <li>Law of closure</li>
+          <li>Law of similarity</li>
+          <li>Law of continuity</li>
+        </ul>
+      </details>
+
+
+      <!--principle 4-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Reduce cognitive load</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Prefill data</li>
+          <li>Use summary pages to playback to users</li>
+          <li>Make it easy to compare data from different sources</li>
+          <li>Miller's law (chunking) to help memory limitations</li>
+          <li>Allow reference material to open in a new window</li>
+        </ul>
+      </details>
+
+
+      <!--principle 5-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Support users / preventative
+              IxD</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>UAvoid 'none of the above' for checkboxes and add context</li>
+          <li>Provide helpful validation messages</li>
+          <li>Allow users to undo actions</li>
+          <li>Think error recovery and error prevention</li>
+          <li>Provide confirmation of actions e.g. save and delete</li>
+          <li>Make users explicity confirm destructive actions e.g. are you sure you want to delete?</li>
+        </ul>
+      </details>
+
+      </details>
+
+
+
+
+      <!--principle 6-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand user behaviours and
+              make users do less</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Ask yourself / understand 'how' the user does xyz</li>
+          <li>Ask yourself / understand 'why' the user does xyz</li>
+          <li>Pre-populate, auto filter, remove redundancies</li>
+          <li>Reduce scrolling (use back to top, anchor links)</li>
+          <li>Fitt's law - time relative to size and distance</li>
+          <li>Reduce repetitive interactions, (multiple instead of individual) </li>
+        </ul>
+      </details>
+
+
+      <!--principle 7-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Don't make users think </div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Use of summary screens before submitting</li>
+          <li>Recognition rather than recall, have access to / what users need where they need it</li>
+          <li>Add helpful contextual information / guidance</li>
+          <li>Use of all elements on the page headings, hint text labels</li>
+          <li>Map to existing mental models</li>
+        </ul>
+      </details>
+
+
+
+
+
+      <!--principle 8-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-2">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Understand context and provide
+              context</div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Avoid dead-ends</li>
+          <li>Explain what will happen next</li>
+          <li>Tell users what they need</li>
+          <li>Indicate timescales</li>
+          <li>Consider end-2-end journey</li>
+          <li>Consider environment, IT confidence, pressures and constraints</li>
+          <li>Provide timely system feedback</li>
+        </ul>
+      </details>
+
+
+      <!--principle 9-->
+      <details class="govuk-details govuk-!-padding-left-5 govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-2">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design a seamless experience
+
+            </div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Re-use patterns / code where possible and appropriate to conform with user expectations</li>
+          <li>Avoid bespoke designs where possible</li>
+          <li>Make sure systems look / behave the same</li>
+          <li>Maintain documentation e.g. Design histories, Interaction Notes, other IxD dcoumentation</li>
+
+
+        </ul>
+      </details>
+
+
+
+      <!--principle 10-->
+      <details class="govuk-details govuk-!-padding-left-5  govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary govuk-!-margin-top-1">
+          <span class="govuk-details__summary-text">
+            <div class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Design with data / design logic
+            </div>
+          </span>
+        </summary>
+        <p class="govuk-!-margin-bottom-0 govuk-!-padding-left-5">Best practice guidance:</p>
+        <ul class="govuk-!-margin-top-1 govuk-!-padding-left-9">
+          <li>Designs are testing hypothesis</li>
+          <li>Features are fulfilling a user need</li>
+          <li>Design rationale exists for design decisions</li>
+          <li>Remove unnecessary components which are not intent driven or do not add value</li>
+          <li>Follow User Centred Design best practice</li>
+        </ul>
+      </details>
+
+
+
+
+      </details>
+
+
+    </div>
+            
+
+          </div>
+        </div>
+
+
+
+
+        
+
+
+      </div>
+      
+
+    </div>
+  </main>
+</div>
+
+{% endblock %}
