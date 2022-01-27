@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-IxD Clan Charter
+Interaction Design Clan Charter
 {% endblock %}
 
 {% block beforeContent %}
-<a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+<a class="govuk-back-link" href="index">Back to contents</a>
 {% endblock %}
 
 {% block content %}
@@ -18,21 +18,23 @@ IxD Clan Charter
       <h1 class="govuk-panel__title">
         Interaction Design Clan Charter
       </h1>
-      <!--<div class="govuk-panel__body">-->
 
       <div>
         <h2>Our pledge to each other</h2>
       </div>
+
     </div>
-    <div class="govuk-!-margin-top-5">
-        <p>Defined by the Clan, to state our values, our culture and
-        how we will work together.</p>
 
-      <div class="govuk-grid-column-one-half govuk-!-margin-top-2">
-        <p><img src="{{ asset_path }}images/values.jpg" alt="" width="80% height=" 80%></p>
-      </div>
+    <div class="govuk-!-margin-top-5 govuk-!-padding-left-0 govuk-grid-column-three-quarters">
+      <p>Defined by the Clan, to state our values, our culture and
+        how we will work together. The team principles are connected, like a jigsaw, with each one being equally
+        important to the full picture of us as a Clan and our culture</p>
+    </div>
 
-      <div class="govuk-grid-column-one-half govuk-!-margin-top-5"> </div>
+    <div class="govuk-grid-row">
+   
+
+    <div class="govuk-grid-column-one-half govuk-!-margin-top-5">
 
       <ul class="govuk-list govuk-list--bullet">
 
@@ -43,16 +45,19 @@ IxD Clan Charter
         <li>Share knowledge so we can all learn</li>
         <li>Ask questions before making assumptions</li>
         <li>Support each other</li>
-        <li>Be aware that we have different skillsets; it's okay to not know everything</li>
+        <li>It's ok to not know everything - we have different skillsets</li>
         <li>Be kind</li>
-
-
-
       </ul>
+
     </div>
 
+    <div class="govuk-grid-column-one-half govuk-!-margin-top-2">
+      <p><img src="{{ asset_path }}images/values.jpg" alt="" width=80% height=80%></p>
+    </div>
+</div>
 
   </main>
 </div>
+
 
 {% endblock %}

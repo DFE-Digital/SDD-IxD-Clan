@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Mission statement
+{% endblock %}
+
+{% block beforeContent %}
+<a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+
+  <main class="govuk-main-wrapper--autospacing" id="main-content" role="main">
+
+
+
+
+
+
+     
+
+
+    <div class="govuk-panel govuk-panel--banner">
+      <h1 class="govuk-panel__title">
+        Our Mission
+      </h1>
+
+        <h2>Understand (needs), collaborate and design (solutions)</h2>
+
+    </div>
+
+
+
+    <div class="govuk-grid-row">
+      <div class="govuk-!-margin-top-5 govuk-grid-column-one-quarter">
+        <ul class="govuk-list govuk-list--bullet">
+          <li>
+            <a href="who-we-are">Who we are</a>
+          </li>
+          <li>
+            <a href="clan-charter">Clan Charter</a>
+          </li>
+          <li>
+            <a href="mission">Our Mission</a>
+          </li>
+          <li>
+            <a href="vision">Our Vision</a>
+          </li>
+          <li>
+            <a href="principles-and-best-practice">IxD Principles & Best Practice</a>
+          </li>
+          <li>
+            <a href="https://design-system.service.gov.uk">Ways of Working</a>
+          </li>
+
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="govuk-grid-column-three-quarters govuk-!-margin-top-5">
+        <p>As a unified team of Interaction Designers, our mission is to collaborate and create consistent,
+          user-centred
+          designs for easy-to-use, accessible services which meet user and business needs and are grounded in user
+          research, insights and a thorough understanding of the problem space so users can be more efficient and
+          better
+          able to concentrate on Trust relationship management.</p>
+      </div>
+
+      <!--<div class="govuk-grid-column-one-quarter govuk-!-margin-top-5 govuk-!-display-inline">
+        <p><img src="{{ asset_path }}images/mission.jpg" alt="" width=90% height=90%>
+        </p>
+      </div>-->
+    </div>
+
+  </main>
+</div>
+
+
+{% endblock %}
