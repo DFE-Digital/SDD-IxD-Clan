@@ -29,10 +29,25 @@ $govuk-assets-path: '/govuk/assets/';
     font-size: 90%;
     text-align: left;
     margin-top: 0px;
-
     display: inline-block;
-    
-    
    
+}
+
+.govuk-intro {
+    //background-color: $govuk-brand-colour;
+   // color: govuk-colour("dark-grey");
+    font-size: 100%;
+    text-align: left;
+    //padding-left: 25px;
+   // margin-top: 0px;
+    display: inline-block;
+}
+
+.govuk-summary-black {
+    color: govuk-colour("black");
+    font-size: 95%;
+    text-align: left;
+    margin-top: 0px;
+    display: inline-block;
 }
 
