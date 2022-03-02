@@ -1,0 +1,227 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Principles and best practice
+{% endblock %}
+
+{% block beforeContent %}
+<a class="govuk-back-link" href="index">Back to contents</a>
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+
+  <main class="govuk-main-wrapper--autospacing" id="main-content" role="main">
+
+    <div class="govuk-panel govuk-panel--banner">
+      <h1 class="govuk-panel__title">Principles and best practice</h1>
+      <p></p>
+
+    </div>
+
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-three-quarters govuk-!-margin-top-5">
+
+        <p>
+          As a Clan we have pulled together a set of principles and best practices which we use for Interaction Design
+          to provide consistency and guidance to how we apply design rationale and practices leading to great
+          interaction design and a
+          great user experience.
+        </p>
+
+        <p class="govuk-!-display-inline ">View by:</p>
+        <p class="govuk-!-display-inline govuk-!-font-weight-bold">IxD themes | </p>
+        <p class="govuk-!-display-inline govuk-!-font-weight-regular"><a
+            href="principles-and-best-practice-option2.html"> Principles list</a></p>
+
+
+        <!--theme 1-->
+
+        <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design for ALL users; needs, behaviours
+          and behavioural science</h2>
+        <div class="govuk-!-margin-bottom-5 govuk-reason govuk-details">...so that we are meeting actual user needs for
+          all users
+          <!--<br><br>We shape our designs so they factor in all types of users (i.e. end-users, business users, internal,
+          external, all levels of ability and tech savviness), their needs (information, task, behaviour and
+          accessibility based needs) and how they innately perceive services so they are usable and understandable by
+          all.-->
+        </div>
+
+        <!--principle 1-->
+        <h3 class="govuk-heading-s">Principle 1: Understand all users, their needs, behaviours and pain points</h3>
+      
+        <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+          <li>Understand the research insights</li>
+          <li>Use needs-based personas</li>
+          <li>Consider both user needs (including accessibility needs) and business needs</li>
+          <li>Fix or mitigate user pain points</li>
+          <li>Factor in user behaviours</li>
+          <li>Understand 'how' the user does xyz</li>
+          <li>Understand 'why' the user does xyz</li>
+          <li>Think about what's missing (to feed into UR/workshops)</li>
+        </ul>
+    
+
+        <!--principle 2 -->
+
+        <h3 class="govuk-heading-s">Principle 2: Design accessibly from the
+          start</h3>
+
+      
+        <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+          <li>Use sufficient background/foreground colour contrast</li>
+          <li>Use industry recommended sizes for interactive components</li>
+          <li>Design structure into pages (headings of different levels, lists...)</li>
+          <li>Visually indicate the page focus</li>
+          <li>Avoid images of text</li>
+          <li>Do represent information using just colour on its own</li>
+        </ul>
+
+        <!--principle 3-->
+        <h3 class="govuk-heading-s">Principle 3: Support users / preventative IxD</h3>
+
+       
+        <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+          <li>Allow users to undo actions</li>
+          <li>Provide confirmation of actions e.g. save and delete</li>
+          <li>Provide logical options for checkboxes / radio buttons</li>
+          <li>Think error recovery and error prevention</li>
+          <li>Make users explicity confirm destructive actions e.g. are you sure you want to delete?</li>
+          <li>Add helpful context e.g. hint text</li>
+          <li>Include helpful validation messages</li>
+        </ul>
+        </details>
+
+        <!--principle 4-->
+
+        <h3 class="govuk-heading-s">Principle 4: Follow Gestalt laws</h3>
+
+       
+        <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+          <li>Law of proximity</li>
+          <li>Law of closure</li>
+          <li>Law of similarity</li>
+          <li>Law of continuity</li>
+        </ul>
+
+
+
+        <!--theme 2-->
+
+        <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design for simplicity</h2>
+        <p class="govuk-!-margin-bottom-5 govuk-reason govuk-details">...so the services are intuiative and easy to use
+        </p>
+
+
+        <!--principle 5-->
+
+        <h3 class="govuk-heading-s">Principle 5: Make users do less</h3>
+        
+        <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+
+          <li>Pre-populate, auto filter, remove redundancies</li>
+          <li>Avoid unnecessary or extra interactions / provide short cuts</li>
+          <li>Reduce scrolling (use back to top, anchor links)</li>
+          <li>Fitt's law - time relative to size and distance</li>
+          <li>Reduce repetitive interactions, (multiple instead of individual) </li>
+        </ul>
+
+        <!--principle 6-->
+         <h3 class="govuk-heading-s">Principle 6: Don't make users think </h3>
+
+       
+          <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+            <li>Use of summary screens before submitting</li>
+            <li>Recognition rather than recall, have access to / what users need where they need it</li>
+            <li>Add helpful contextual information / guidance</li>
+            <li>Use of all elements on the page headings, hint text labels</li>
+            <li>Map to existing mental models</li>
+            <li>Keep focus (not cluttered, provide affordance, clear call to actions)</li>
+          </ul>
+
+
+          <!--principle 7-->
+          <h3 class="govuk-heading-s">Principle 7: Reduce cognitive load</h3>
+
+         
+          <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+            <li>Prefill data</li>
+            <li>Use summary pages to playback to users</li>
+            <li>Make it easy to compare data from different sources</li>
+            <li>Miller's law (chunking) to help memory limitations</li>
+          </ul>
+
+          <!--theme 3-->
+          <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design in context</h2>
+          <p class="govuk-!-margin-bottom-5 govuk-reason govuk-details">...so users expectations are set and they know
+            where they
+            are, where they are going, what they need and what they will be doing</p>
+
+
+          <!--principle 8-->
+          <h3 class="govuk-heading-s">Principle 8: Understand context and provide
+            context</h3>
+
+
+          <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+            <li>Avoid dead-ends</li>
+            <li>Explain what will happen next </li>
+            <li>Tell users what they need </li>
+            <li>Indicate timescales</li>
+            <li>Consider end-2-end journey</li>
+            <li>Consider environment, IT confidence, pressures and constraints</li>
+            <li>Provide timely system feedback</li>
+          </ul>
+
+          <!--theme 4-->
+          <h2 class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-0">Design consistently</h2>
+          <p class="govuk-!-margin-bottom-5 govuk-reason govuk-details">...so interactions for the services are predictable and
+            learnable thereby saving users time and effort</p>
+
+
+          <!--principle 9-->
+          <h3 class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Principle 9: Design a seamless experience
+          </h3>
+
+         
+          <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+            <li>Re-use patterns / code where possible and appropriate to conform with user expectations</li>
+            <li>Avoid bespoke designs where possible</li>
+            <li>Make sure systems look / behave the same</li>
+            <li>Maintain documentation e.g. Design histories, design decisions, other IxD dcoumentation</li>
+          </ul>
+
+
+          <!--theme 5-->
+          <h2 class="govuk-heading-m govuk-!-margin-top-5 govuk-!-margin-bottom-0">Design meaningful interactions</h2>
+          <p class="govuk-!-margin-bottom-5 govuk-reason govuk-details">...so that everything is grounded in research / design
+            rationale of proven interactions</p>
+
+
+          <!--principle 10-->
+          <h3 class="govuk-heading-s govuk-!-margin-top-0 govuk-!-margin-bottom-0">Principle 10: Design with data / design
+            logic</h3>
+
+        
+          <ul class="govuk-list govuk-list--bullet govuk-!-padding-left-7">
+            <li>Designs are testing hypothesis</li>
+            <li>Features are fulfilling a user need</li>
+            <li>Design rationale exists for design decisions</li>
+            <li>Remove unnecessary components which are not intent driven or do not add value</li>
+            <li>Follow User Centred Design best practice</li>
+          </ul>
+
+
+
+
+      </div>
+
+
+
+    </div>
+  </main>
+</div>
+
+{% endblock %}
