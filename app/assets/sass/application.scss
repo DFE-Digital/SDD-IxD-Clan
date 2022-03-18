@@ -50,3 +50,228 @@ $govuk-assets-path: '/govuk/assets/';
     display: inline-block;
 }
 
+.gem-c-contents-list__list-item--dashed {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.gem-c-contents-list__list-item {
+    padding-top: 7.5
+px
+;
+}
+
+.gem-c-contents-list__list-item {
+    padding-top: 10px;
+    line-height: 1.3;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.gem-c-contents-list__list {
+    font-size: 16px;
+    line-height: 1.25;
+    color: red;
+}
+
+.gem-c-contents-list__list {
+    color: #0b0c0c;
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.gem-c-layout-for-public {
+    font-family: "GDS Transport",arial,sans-serif;
+}
+
+.gem-c-contents-list__list-item--dashed:before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    overflow: hidden;
+   
+    
+}
+.govuk-link {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px);
+    text-underline-offset: 0.1em;
+}
+
+.govuk-link:link {
+    color: #1d70b8;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.gem-c-pagination {
+    display: block;
+    margin: 50
+px
+ 0;
+}
+
+nav {
+    display: block;
+}
+
+.gem-c-pagination__list {
+    margin: 0;
+    padding: 0;
+}
+
+.gem-c-pagination__item {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    list-style: none;
+}
+
+.gem-c-pagination__item {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.gem-c-pagination__item {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    list-style: none;
+}
+
+.gem-c-pagination__item:first-child {
+    margin-bottom: 20
+px
+;
+}
+
+.gem-c-pagination__link-divider {
+    position: absolute !important;
+    width: 1
+px
+ !important;
+    height: 1
+px
+ !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    border: 0 !important;
+    white-space: nowrap !important;
+}
+
+.gem-c-pagination__link {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.gem-c-pagination__link-label {
+    margin-left: 30px;
+}
+
+.gem-c-pagination__link-label {
+    display: inline-block;
+    margin-top: 0.1em;
+    margin-left: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px);
+    text-underline-offset: 0.1em;
+    font-size: 16px;
+  
+
+}
+
+.gem-c-pagination__link-text {
+    font-size: 19px;
+    line-height: 1.3157894737;
+   // padding-left: 10px;
+   text-decoration: none;
+
+  
+    
+}
+
+.gem-c-pagination__link-text {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-left: 10
+px
+;
+}
+
+.js-enabled .app-back-to-top--fixed {
+    position: fixed;
+    top: calc(100% - 50
+px
+);
+    bottom: auto;
+    left: auto;
+}
+
+.app-back-to-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    margin-bottom: 50
+px
+;
+}
+
+.app-back-to-top {
+    margin-top: 20
+px
+;
+    margin-bottom: 30
+px
+;
+}
+
+.app-pane.app-pane--enabled {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}

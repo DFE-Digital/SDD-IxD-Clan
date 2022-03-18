@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-Principles and good practice
+Principles and best practice
 {% endblock %}
 
 {% block beforeContent %}
@@ -15,7 +15,7 @@ Principles and good practice
   <main class="govuk-main-wrapper--autospacing" id="main-content" role="main">
 
     <div class="govuk-panel govuk-panel--banner">
-      <h1 class="govuk-panel__title">Principles and good practice</h1>
+      <h1 class="govuk-panel__title">Principles and best practice</h1>
       <p></p>
 
     </div>
@@ -24,71 +24,128 @@ Principles and good practice
 
 
     <div class="govuk-grid-row">
-      
-<!--
-      <div class="govuk-grid-column-one-quarter govuk-!-margin-top-5"></div>
-      <div class="app-back-to-top app-back-to-top--fixed" data-module="app-back-to-top">
-        <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
-          <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17">
-            <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-          </svg>Back to top
-        </a>
+      <div class="govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-top-5">
+
+          <div class="app-pane__subnav">
+            <nav class="app-subnav" aria-labelledby="app-subnav-heading">
+              <h2 class="govuk-visually-hidden" id="app-subnav-heading">Pages in this section</h2>
+
+              <ul class="govuk-list govuk-!-font-size-16">
+
+                <li class="app-subnav__section-item">
+                  <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                    href="who-we-are.html">Who we are</a>
+
+                </li>
+
+                <li class="app-subnav__section-item">
+                  <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                    href="clan-charter.html">Clan charter</a>
+
+                </li>
+
+                <li class="app-subnav__section-item">
+                  <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                    href="mission.html">Our mission</a>
+
+                </li>
+
+                <li class="app-subnav__section-item">
+                  <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                    href="vision.html">Our vision</a>
+
+                </li>
+
+
+                <li class="app-subnav__section-item app-subnav__section-item--current"><strong>Principles and good
+                    practice</strong></a>
+
+                  <ul class="app-subnav__section app-subnav__section--nested">
+
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#screen-size">
+                        Understand ALL users; needs, behaviours and pain points
+                      </a>
+                    </li>
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#common-layouts">
+                        Design accessibly
+                      </a>
+                    </li>
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#building-your-own-layout">
+                        Follow Gestalt laws
+                      </a>
+                    </li>
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#page-wrappers">
+                        Reduce cognitive load
+                      </a>
+                    </li>
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#grid-system">
+                        Support / prevent users making mistakes
+                      </a>
+                    </li>
+
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#override-how-elements-display">
+                        Make users do less
+                      </a>
+                    </li>
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#override-how-elements-display">
+                        Consider context
+                      </a>
+                    </li>
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#override-how-elements-display">
+                        Design a seamless experience
+                      </a>
+                    </li>
+                    <li class="govuk-list govuk-!-font-size-16">
+                      <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                        href="/styles/layout/#override-how-elements-display">
+                        Design with data and design logic
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </li>
+
+                <li class="app-subnav__section-item">
+                  <a class="app-subnav__link govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+                    href="mission.html">Ways of working</a>
+
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-      -->
+
 
 <!--content-->
       <div class="govuk-grid-column-three-quarters govuk-!-margin-top-5">
 
-
-        <ul class="gem-c-contents-list__list">
-     
-
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-1">1. Understand ALL users; needs, behaviours and pain points</a>
-  
-          </li>
-          
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-2">2. Design accessibly</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-3">3. Follow Gestalt laws</a>
-  
-          </li>
-          
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-4">4. Reduce cognitve load</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-5">5. Support / prevent users making mistakes</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-6">6. Make users do less</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-7">7. Consider context</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-8">8. Design a seamless experience</a>
-  
-          </li>
-          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-            <a class="gem-c-contents-list__link govuk-link" href="#principle-9">9. Design with data and design logic</a>
-  
-          </li>
-          
-      </ul>
-
-      <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
-
-      
         <p>
-          As a Clan we have pulled together a set of principles and good practices which we use for Interaction Design
+          As a Clan we have pulled together a set of principles and best practices which we use for Interaction Design
           to provide consistency and guidance to how we apply design rationale and practices leading to great
           interaction design and a
           great user experience.
@@ -98,7 +155,7 @@ Principles and good practice
 
 
         <!--principle 1-->
-        <h2 class="govuk-heading-m" id="principle-1">1. Understand ALL users; needs,
+        <h2 class="govuk-heading-m">1. Understand ALL users; needs,
           behaviours and pain points</h2>
 
         <p>...so that we are meeting ALL types of user needs for ALL users.</p>
@@ -118,21 +175,11 @@ Principles and good practice
             <li>Think about what's missing (to feed into UR/workshops)</li>
           </ul>
         </div>
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 2 -->
 
-        <h2 class="govuk-heading-m" id="principle-2">2. Design accessibly from the
+        <h2 class="govuk-heading-m">2. Design accessibly from the
           start</h2>
 
         <p>...so that we are inclusive.</p>
@@ -149,21 +196,11 @@ Principles and good practice
             <li>Do represent information using just colour on its own</li>
           </ul>
         </div>
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
 
         <!--principle 3-->
-        <h2 class="govuk-heading-m" id="principle-3">3. Follow Gestalt laws</h2>
+        <h2 class="govuk-heading-m">3. Follow Gestalt laws</h2>
 
         <p>...so that we design for natural human perception.</p>
         <div class="govuk-body">Gestalt laws are principles which relate to how people naturally perceive
@@ -177,20 +214,10 @@ Principles and good practice
             <li>Law of continuity</li>
           </ul>
         </div>
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 4-->
-        <h2 class="govuk-heading-m" id="principle-4">4. Reduce cognitive load</h2>
+        <h2 class="govuk-heading-m">4. Reduce cognitive load</h2>
         <p>...so that we don't overload users.</p>
         <div class="govuk-body">Unnecessary demands being made on users' mental capacity when completing a task can lead
           to
@@ -205,20 +232,10 @@ Principles and good practice
             <li>Miller's law (chunking) to help memory limitations</li>
           </ul>
         </div>
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 5-->
-        <h2 class="govuk-heading-m" id="principle-5">5. Support / prevent users making mistakes</h2>
+        <h2 class="govuk-heading-m">5. Support / prevent users making mistakes</h2>
         <p>...so that users make less errors and can recover from mistakes.</p>
         <div class="govuk-body">Making mistakes can be frustrating and increase anxiety when users are interacting with
           a service. To avoid these negative emotions, we should design to reduce in the incidence of errors but also
@@ -235,21 +252,11 @@ Principles and good practice
             <li>Include helpful validation messages</li>
           </ul>
         </div>
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 6-->
 
-        <h2 class="govuk-heading-m" id="principle-6">6. Make users do less</h2>
+        <h2 class="govuk-heading-m">6. Make users do less</h2>
         <p class="govuk-body">...so that the experience is faster and easier for users.</p>
         <div class="govuk-body">A series of additional interactions add up to an experience littered with unnecessary
           interactions which slow the user down and increase effort. Remove unnecessary interactions when the user can
@@ -266,21 +273,10 @@ Principles and good practice
             <li>Reduce repetitive interactions, (multiple instead of individual) </li>
           </ul>
         </div>
-
-        <!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 7-->
-        <h2 class="govuk-heading-m" id="principle-7">7. Consider context </h2>
+        <h2 class="govuk-heading-m">7. Consider context </h2>
 
         <p class="govuk-reason govuk-!-padding-left-5">...so that we are designing for user's circumstances and so users
           understand their circumstances in relation to using the service.</p>
@@ -307,22 +303,12 @@ Principles and good practice
           </ul>
         </div>
 
-<!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
 
 
         <!--principle 8-->
-        <h2 class="govuk-heading-m" id="principle-8">8. Design a seamless experience
+        <h2 class="govuk-heading-m">8. Design a seamless experience
         </h2>
 
         <p class="govuk-reason govuk-!-padding-left-5">...so that the user experience is familiar and predictable.</p>
@@ -339,20 +325,10 @@ Principles and good practice
           </ul>
         </div>
 
-<!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
         <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
         <!--principle 9-->
-        <h2 class="govuk-heading-m" id="principle-9">9. Design with data and design
+        <h2 class="govuk-heading-m">9. Design with data and design
           logic</h2>
 
         <p>...so that everything is grounded in insights and has design rationale.</p>
@@ -362,7 +338,7 @@ Principles and good practice
             hinders their use of the service.
             <p class="govuk-!-margin-top-5">Good practice guidance:</p>
 
-            <ul class="govuk-list--bullet govuk-!-padding-left-7">
+            <ul class="ggovuk-list--bullet govuk-!-padding-left-7">
               <li>Designs are testing hypothesis</li>
               <li>Features are fulfilling a user need</li>
               <li>Design rationale exists for design decisions</li>
@@ -370,63 +346,10 @@ Principles and good practice
               <li>Remove unnecessary components which are not intent driven or do not add value</li>
             </ul>
 
+
+
+
           </div>
-
-<!--next and previous
-<hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-<nav class="gem-c-pagination" role="navigation" aria-label="Pagination">
-  <ul class="gem-c-pagination__list" data-module="gem-track-click">
-      <li class="gem-c-pagination__item gem-c-pagination__item--previous">
-        <a href="/universal-credit/what-youll-get" class="govuk-link gem-c-pagination__link govuk-link--no-underline" rel="prev" data-track-category="contentsClicked" data-track-action="previous" data-track-label="/universal-credit/what-youll-get" data-track-dimension="previous" data-track-dimension-index="29">
-          <span class="gem-c-pagination__link-title">
-            <svg class="gem-c-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
-              <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
-            </svg>
-            <span class="gem-c-pagination__link-text govuk-!-padding-left-1">Previous</span>
-          </span>
-          <br>
-            <span class="gem-c-pagination__link-divider visually-hidden">:</span>
-            <span class="gem-c-pagination__link-label">What you'll get</span>
-        </a>
-      </li>
-      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-
-      <li class="gem-c-pagination__item gem-c-pagination__item--next">
-        <a href="/universal-credit/how-youre-paid" class="govuk-link gem-c-pagination__link govuk-link--no-underline" rel="next" data-track-category="contentsClicked" data-track-action="next" data-track-label="/universal-credit/how-youre-paid" data-track-dimension="next" data-track-dimension-index="29">
-          <span class="gem-c-pagination__link-title">
-            <svg class="gem-c-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
-              <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
-            </svg>
-            <span class="gem-c-pagination__link-text govuk-!-padding-left-1">Next</span>
-          </span>
-          <br>
-            <span class="gem-c-pagination__link-divider visually-hidden">:</span>
-            <span class="gem-c-pagination__link-label">How you're paid</span>
-        </a>
-      </li>
-  </ul>
-  <hr class="govuk-section-break govuk-section-break--l govuk-section-break--invisible">
-  
-</nav>
--->
-
-
-
-<!--back to top-->
-<div data-sticky-element class="sticky-element">
-  <a class="govuk-link app-c-back-to-top dont-print govuk-link--no-visited-state" href="#main-content">
-    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17"
-      viewbox="0 0 13 17">
-      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
-    </svg>
-    Back to top
-  </a>
-</div>
-
-
-
-       
 
 
 
