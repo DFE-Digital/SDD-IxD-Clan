@@ -238,6 +238,17 @@ px
 ;
 }
 
+.gem-c-contents-list__title {
+    color: #0b0c0c;
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
 .js-enabled .app-back-to-top--fixed {
     position: fixed;
     top: calc(100% - 50
